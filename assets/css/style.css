@@ -58,3 +58,30 @@ header {
   color: #4bafb4;
   cursor: pointer;  
 }
+.hero-banner{
+  display: flex;
+  width: 100%;
+  background-image: url(../images/02-hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 15px;
+  /* justify-content: right; */
+
+}
+.sub-title {
+  display: flex;
+  width: 70%;
+  font-size: 30px;
+  color: blueviolet;
+  justify-content:center;
+  align-items:center; 
+  
+}
+
+.my-image {
+  display: flex;
+  width: 25%;
+  height: 300px;
+  }
