@@ -61,7 +61,7 @@ header {
 .hero-banner{
   display: flex;
   width: 100%;
-  background-image: url(/images/02-hero-bg.jpg);
+  background-image: url(/assets/images/02-hero-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ header {
   height: 300px;
   }
 
- /* Added styling to About Me section */
+ /* Added CSS to About Me section */
   
  #about{
   display: flex;
@@ -107,34 +107,4 @@ header {
   width: 75%;
   font-size: 20px;
   margin-left: 2%;
-  }
-
-
-
- /* Added styling to Contacts section */
-
-#contact{ 
-  display: flex;
-  width: 100%;
-}
-.contact-details{
-    width: 75%;
-    display: flex;
-    margin-bottom: 15px;
-    margin-top: 20px; 
-  }
-  
-.contact-details a {
-  padding-left: 80px;
-  font-size: 24px;
-  }
-
-.contacts{
-    display: flex;
-    width: 20%;
-    margin-bottom: 15px;
-    font-size: 30px;
-    align-items: center;
-    justify-content: flex-end;
-    border-right: 5px solid rgba(49, 49, 187, 0.607);
   }
